@@ -1,5 +1,21 @@
+@import "~antd/dist/antd.css";
+
+html, body, #root {
+  height: 100%;
+}
+
 .App {
   text-align: center;
+  height: 100%;
+  background-color: rgb(226, 226, 226);
+
+  .data-table {
+    &__container {
+      margin: 50px;
+      border: 1px solid black;
+      background-color: rgb(245, 245, 245);
+    }
+  }
 }
 
 .App-logo {

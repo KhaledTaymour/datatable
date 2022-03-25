@@ -1,0 +1,17 @@
+.edit-modal {
+  &__container {
+    display: grid;
+
+    width: 60%;
+    label {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px;
+
+      input {
+        margin: 0px 10px;
+        width: 250px;
+      }
+    }
+  }
+}

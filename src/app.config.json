@@ -1,0 +1,8 @@
+{
+  "services": {
+    "domain": "http://localhost:8001/",
+    "getAllCustomers": "customers",
+    "updateCustomer": "customers/{customer_id}",
+    "deleteCustomer": "customers/{customer_id}"
+  }
+}
